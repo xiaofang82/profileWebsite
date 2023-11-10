@@ -77,6 +77,10 @@ section {
     background-color: #05b0db;
 }
 
+.connect_button.GitHub {
+    background-color: #5b4398;
+}
+
 .connect_button:after {
     content: "";
     position: absolute;
