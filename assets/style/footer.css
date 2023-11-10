@@ -2,3 +2,41 @@
 /* Footer Style                              */
 /*------------------------------------------*/
 
+footer {
+    background-color: #7d7d7d3a;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 0.3);
+    color: #8D8D8E;
+    height: var(--app-footer-height);
+    margin: auto;
+    height: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.25s;
+    display: inline;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    
+}
+
+.awesome {
+    width: 50%;
+}
+
+.awesome div {
+    width:40px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.right {
+    margin-left: auto;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;
+}

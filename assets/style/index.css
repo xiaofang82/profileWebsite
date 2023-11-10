@@ -15,6 +15,7 @@
 main {
     overflow:hidden;
     color: var(--font-color);
+    margin: 60px;
 }
 
 .flexbox {
@@ -49,7 +50,6 @@ section {
 .about-me-img {
     width: 100%;
     margin-top: 20px;
-    border-radius: 8px; 
 }
 
 /*reference from https://taylorvowell.com */
