@@ -13,7 +13,6 @@
 }
 
 main {
-    height: calc(100dvh - 60px - 40px);
     overflow:hidden;
     color: var(--font-color);
 }
@@ -34,9 +33,79 @@ section {
 
 .about-me-title {
     margin: 30px 0px;
+    color: #fff;
+}
+
+.title-divider {
+    width: 100px; 
+    border: 1px solid #fff; 
+    margin: 10px auto; 
 }
 
 .about-me {
     line-height: 35px;
 }
 
+.about-me-img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px; 
+}
+
+/*reference from https://taylorvowell.com */
+.connect_button {
+    border: none;
+    background-color: #436f9e;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px 20px 15px 70px;
+    display: inline-block;
+    margin: 15px 30px;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    transition: all 0.3s;
+    z-index: 3;
+    text-decoration:none
+}
+
+.connect_button.facebook {
+    background-color: #05b0db;
+}
+
+.connect_button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s;
+}
+
+.connect_button i {
+    font-size: 15px;
+    line-height: 46px;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    transition: all 0.3s;
+}
+
+.connect_button:hover:after {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.connect_button:hover i {
+    background-color: rgba(255, 255, 255, 0.15);
+}
