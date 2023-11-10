@@ -1,0 +1,29 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+
+/*------------------------------------------*/
+/* Main Style                              */
+/*------------------------------------------*/
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline:auto;
+    height: 100%;
+}
+
+main {
+    height: calc(100dvh - 60px - 40px);
+    overflow:hidden;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.center {
+    height:100%;
+    display:grid;
+    place-items: center;
+}
+
