@@ -18,15 +18,17 @@
     z-index: 2; 
     justify-content: center;
     text-align: center;
+    width: 700px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 46px;
     font-family: 600px;
 }
 
 .text {
-    font-size: 26px;
+    font-size: 24px;
+    color: var(--font-color);
 }
 
 canvas {
